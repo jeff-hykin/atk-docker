@@ -1,0 +1,1 @@
+puts `docker --version`.sub(/[\s\S]*?(\d+\.\d+\.\d+)[\s\S]*/,'\1')
