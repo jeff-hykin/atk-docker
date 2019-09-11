@@ -6,7 +6,7 @@ if OS.is?("mac")
     -"open -a Docker"
 elsif OS.is?("linux")
     if OS.is?("debian")
-        -"sudo apt-get remove docker docker-engine docker.io"
+        -"yes | sudo apt-get remove docker docker-engine docker.io"
         # in order to get docker compose, pip is needed
         -"yes | sudo apt install docker.io python3-pip"
         # get the docker dameon running
