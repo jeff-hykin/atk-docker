@@ -32,9 +32,9 @@ else
             you manage to get installed, it will likely be outdated.
             
             Note that as of Summer 2019;
-            there is no way to run both VirtualBox and Docker for any version of Windows.
-            Which can be a real problem. People have been working to solve this,
-            but it has not been solved this.
+            there is no way to run both VirtualBox and Docker for any version of Windows,
+            which can be a real problem. People have been working to solve this,
+            but it has not been solved yet as far as I know.
         
         If this process has changed, and it has suddenly become possible, please 
         open an issue on github so I can update this and have it automated.
