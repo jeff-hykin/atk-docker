@@ -15,7 +15,7 @@ elsif OS.is?("linux")
         # install docker-compose
         -"sudo pip3 install docker-compose"
     else
-        puts "\n\nCurrently only Debian is supported,\nIf you find the commands for installing this on your OS, please create a issue on github so it can be automated for everyone.\n\nSince you're on linux, the command should be pretty straightforward"
+        puts "\n\nCurrently only Ubuntu/Debian is supported,\nIf you find/know the commands for installing this on your OS, please create a issue on github so it can be automated for everyone.\n\nSince you're on linux, the command should be pretty straightforward"
     end
 else
     puts <<-HEREDOC.remove_indent
